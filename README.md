@@ -1,6 +1,6 @@
-example-docker-vagrant
+example-docker
 ======================
-This example shows a developer workflow using Vagrant to create a virtual machine and docker to run the application artifacts.
+This example shows a developer workflow using docker and node.
 
 To get started:
 
