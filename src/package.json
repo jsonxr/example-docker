@@ -1,0 +1,24 @@
+{
+  "name": "example-docker-vagrant",
+  "version": "1.0.0",
+  "description": "example-docker-vagrant ====================== This example shows a developer workflow using Vagrant to create a virtual machine and docker to run the application artifacts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsonxr/example-docker-vagrant.git"
+  },
+  "author": "Jason Rowland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsonxr/example-docker-vagrant/issues"
+  },
+  "homepage": "https://github.com/jsonxr/example-docker-vagrant",
+  "dependencies": {
+    "express": "^4.9.4"
+  }
+}
