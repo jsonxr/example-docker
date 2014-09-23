@@ -4,7 +4,8 @@ var app = express();
 // Add a basic route – index page
 app.get('/', function (req, res) {
   res.json({
-    status: "ok"
+    status: "ok",
+    env: process.env
   });
 });
 
